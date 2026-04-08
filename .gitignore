@@ -1,0 +1,9 @@
+results/*.svg
+
+venv/
+.venv/
+
+
+
+
+
