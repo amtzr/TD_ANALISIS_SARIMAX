@@ -1,0 +1,46 @@
+
+REPORTE DE PREDICCIÓN SARIMAX - PM2.5
+========================================
+
+CONFIGURACIÓN DEL MODELO:
+- Orden (p,d,q): (1, 0, 1)
+- Orden estacional (P,D,Q,s): (1, 1, 1, 24)
+- Variable objetivo: PM2.5 (μg/m³)
+- Período estacional: 24 horas
+- Variables exógenas: PM10, CO, O3, Temperatura, Humedad Relativa
+
+MÉTRICAS DE EVALUACIÓN:
+- MSE: 100.9623
+- MAE: 10.0378
+- RMSE: 10.0480
+- R²: 0.6375
+- MAPE: 109.74%
+
+INTERPRETACIÓN DE RESULTADOS:
+- Ajuste del modelo: Moderado
+- Precisión de predicciones: Baja
+
+ARCHIVOS GENERADOS:
+- prediccion_sarimax_pm25.jpg: Gráfica de predicciones
+- residuos_sarimax_pm25.jpg: Análisis de residuos
+
+RECOMENDACIONES:
+- El modelo tiene baja precisión, revisar datos o considerar otras variables exógenas
+- El error RMSE es alto, puede ser necesario más datos de entrenamiento
+
+- Validar el modelo con diferentes períodos de prueba
+- Considerar modelos híbridos si la precisión no es suficiente
+- Monitorear el desempeño del modelo en tiempo real
+
+OBSERVACIONES:
+- El modelo SARIMAX captura patrones estacionales diarios y relaciones con variables exógenas
+- Las variables exógenas PM10, CO, O3, Temperatura y Humedad Relativa mejoran la precisión del modelo
+- Las predicciones son más confiables a corto plazo (24-48 horas)
+- Se recomienda actualizar el modelo periódicamente con nuevos datos
+- El modelo considera efectos de contaminantes cruzados y condiciones meteorológicas
+
+VENTAJAS DEL MODELO SARIMAX:
+- Incorpora información de variables relacionadas (PM10, CO, O3)
+- Considera condiciones meteorológicas (Temperatura, Humedad)
+- Captura patrones estacionales complejos
+- Proporciona intervalos de confianza para predicciones

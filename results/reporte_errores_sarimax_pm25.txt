@@ -1,0 +1,51 @@
+
+REPORTE DE ANÁLISIS DE ERRORES ABSOLUTOS - SARIMAX PM2.5
+========================================================
+
+FÓRMULA UTILIZADA:
+e_t^((A)) = |y_t - ŷ_t^((A))|
+
+donde:
+- y_t: valor real de PM2.5 en el tiempo t
+- ŷ_t^((A)): predicción del modelo SARIMAX en el tiempo t
+
+CONFIGURACIÓN DEL MODELO:
+- Modelo: SARIMAX(1, 0, 0, 0, 0, 0, 24)
+- R² del modelo: 0.9548
+- Variables exógenas: PM10, CO
+- Muestra de análisis: 65425 observaciones
+
+ESTADÍSTICAS DE ERRORES ABSOLUTOS:
+- Error Absoluto Medio: 1.5570 μg/m³
+- Error Absoluto Mediano: 1.1254 μg/m³
+- Desviación Estándar: 1.5015 μg/m³
+- Error Mínimo: 0.0000 μg/m³
+- Error Máximo: 16.5803 μg/m³
+- Rango de Errores: 16.5803 μg/m³
+
+MÉTRICAS DE DESEMPEÑO:
+- MAE (Error Absoluto Medio): 1.5570 μg/m³
+- RMSE (Raíz del Error Cuadrático Medio): 2.1631 μg/m³
+- Error Relativo Medio: 28.60%
+
+ANÁLISIS DE DIRECCIÓN DE ERRORES:
+- Predicciones Subestimadas: 22928 (35.0%)
+- Predicciones Sobrestimadas: 42497 (65.0%)
+- Predicciones Exactas: 0 (0.0%)
+
+INTERPRETACIÓN DE RESULTADOS:
+✅ Buena precisión
+✅ Errores consistentes
+⚠️ Posible sesgo en predicciones
+
+ARCHIVOS GENERADOS:
+- Errores individuales: c:/Users/jamar/Documents/ANALISIS_SERIES_TIEMPO_10022026/results/errores_absolutos_sarimax_pm25.csv
+- Estadísticas: c:/Users/jamar/Documents/ANALISIS_SERIES_TIEMPO_10022026/results/estadisticas_errores_sarimax_pm25.csv
+- Gráfico de análisis: c:/Users/jamar/Documents/ANALISIS_SERIES_TIEMPO_10022026/results/analisis_errores_sarimax_pm25.jpg
+
+RECOMENDACIONES:
+✅ Modelo listo para producción
+⚠️ Revisar calidad de predicciones
+✅ Sistema estable y confiable
+
+Fecha de análisis: 2026-03-31 12:58:40

@@ -1,0 +1,44 @@
+
+# Reporte de Análisis de Series de Tiempo Ambientales
+
+## Resumen de Datos
+- **Registros analizados**: 327122
+- **Rango temporal**: 2025-06-15 17:29:07 a 2026-02-10 17:32:16
+- **Variables analizadas**: ['CO', 'O3', 'PM10', 'PM25', 'Humedad_Relativa', 'Temperatura']
+
+## Estadísticas Descriptivas
+                  CO             O3           PM10           PM25  Humedad_Relativa    Temperatura
+count  327122.000000  327122.000000  327122.000000  327122.000000     327122.000000  327122.000000
+mean      335.322296      39.538451      11.653384      10.636592         51.181246      21.448653
+std       123.575334      13.484674       8.011919       7.979330         21.651775       7.355443
+min        38.500000       0.000000       1.000000       0.000000          0.228306       3.600000
+25%       247.000000      29.000000       6.000000       5.000000         33.700000      16.800000
+50%       288.000000      39.000000       9.000000       8.000000         49.200000      20.100000
+75%       386.000000      49.000000      15.000000      14.000000         67.200000      26.400000
+max       594.500000      79.000000      28.500000      27.500000         98.300000      40.800000
+
+## Pruebas de Estacionariedad
+
+### CO
+- Estacionaria: Sí
+- P-valor: 0.0000
+
+### O3
+- Estacionaria: Sí
+- P-valor: 0.0000
+
+### PM10
+- Estacionaria: Sí
+- P-valor: 0.0000
+
+### PM25
+- Estacionaria: Sí
+- P-valor: 0.0000
+
+### Humedad_Relativa
+- Estacionaria: Sí
+- P-valor: 0.0000
+
+### Temperatura
+- Estacionaria: Sí
+- P-valor: 0.0000

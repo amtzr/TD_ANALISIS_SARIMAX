@@ -1,0 +1,16 @@
+Metrica,Valor
+Modelo_SARIMAX,"SARIMAX(1, 0, 0, 0, 0, 0, 24)"
+R2_Modelo,0.9548344410631823
+Total_Observaciones,65425
+Error_Absoluto_Medio,1.5570446410084875
+Error_Absoluto_Mediano,1.12538371949623
+Error_Absoluto_Desviacion,1.5015071719979036
+Error_Absoluto_Min,1.3087130537492442e-05
+Error_Absoluto_Max,16.580323161707724
+Error_Absoluto_Rango,16.580310074577188
+Error_Relativo_Medio_Porcentaje,28.60065390352472
+RMSE,2.163071275290359
+MAE,1.5570446410084875
+Predicciones_Subestimadas,22928
+Predicciones_Sobrestimadas,42497
+Predicciones_Exactas,0

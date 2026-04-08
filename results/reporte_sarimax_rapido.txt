@@ -1,0 +1,18 @@
+
+REPORTE SARIMAX RÁPIDO - PM2.5
+=============================
+
+CONFIGURACIÓN: SARIMAX(1, 0, 1, 1, 1, 1, 24)
+R² OBTENIDO: 0.3810
+OBJETIVO: 0.67 ± 0.05
+
+MÉTRICAS:
+- MSE: 64.9180
+- MAE: 7.0232
+- RMSE: 8.0572
+- MAPE: 103.73%
+
+RESULTADO: ⚠️ Fuera de rango
+
+TIEMPO DE EJECUCIÓN: Optimizado
+ARCHIVOS: Gráficas generadas
